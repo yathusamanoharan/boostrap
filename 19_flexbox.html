@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+  <title>Bootstrap Sandbox</title>
+  <style>
+    .bd-highlight {
+      background: #f4f4f4;
+      height: 250px;
+    }
+
+    .bd-highlight {
+      border: 1px solid #333;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="display-3 text-center my-4">Flexbox</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="dropdown">
+            <button class="btn btn-primary btn-block dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              2: Utilities
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="1_basic_typography.html">Basic Typography</a>
+              <a class="dropdown-item" href="2_text_alignment_display.html">Text Alignment & Display</a>
+              <a class="dropdown-item" href="3_floats_position.html">Floats & Position</a>
+              <a class="dropdown-item" href="4_colors_background.html">Colors & Background</a>
+              <a class="dropdown-item" href="5_spacing.html">Spacing</a>
+              <a class="dropdown-item" href="6_sizing.html">Sizing</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="dropdown">
+            <button class="btn btn-success btn-block dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              2: CSS Components
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="7_buttons.html">Buttons</a>
+              <a class="dropdown-item" href="8_navbar.html">Navbar</a>
+              <a class="dropdown-item" href="9_list_groups_badges.html">List Groups & Badges</a>
+              <a class="dropdown-item" href="10_forms.html">Forms</a>
+              <a class="dropdown-item" href="11_input_groups.html">Input Groups</a>
+              <a class="dropdown-item" href="12_alerts_progress.html">Alerts & Progress</a>
+              <a class="dropdown-item" href="13_tables_pagination.html">Tables & Pagination</a>
+              <a class="dropdown-item" href="14_cards.html">Cards</a>
+              <a class="dropdown-item" href="15_media_object.html">Media Objects</a>
+              <a class="dropdown-item" href="16_jumbotron.html">Jumbotron</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="dropdown">
+              <button class="btn btn-success btn-block dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                3: Layout
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="17_grid_system.html">Buttons</a>
+                <a class="dropdown-item" href="18_grid_alignment.html">Navbar</a>
+                <a class="dropdown-item" href="19_flexbox.html">List Groups & Badges</a>
+                <a class="dropdown-item" href="20_auto_margins_wrapping_order.html">Auto margin</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="dropdown">
+            <button class="btn btn-success btn-block dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              4: Main components
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="21_carousel.html">Carousel</a>
+              <a class="dropdown-item" href="22_collapse.html">Collapse</a>
+              <a class="dropdown-item" href="23_tooltips.html">tooltips</a>
+              <a class="dropdown-item" href="24_popovers.html">Popovers</a>
+              <a class="dropdown-item" href="25_modals.html">Modals</a>
+              <a class="dropdown-item" href="26_scrollspy.html">Scrollspy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </header>
+
+  <div class="container">
+    <!--#####################START HERE######################-->
+
+    <!-- FLEX ROW & FLEX ITEMS -->
+    <div class=" mb-3 bg-light">
+      <div class="p-2 border border-dark">Flex item 1</div>
+      <div class="p-2 border border-dark">Flex item 2</div>
+      <div class="p-2 border border-dark">Flex item 3</div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- FLEX ROW REVERSE -->
+    <div class="bg-light">
+      <div class="p-2 border border-dark">Flex item 1</div>
+      <div class="p-2 border border-dark">Flex item 2</div>
+      <div class="p-2 border border-dark">Flex item 3</div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- JUSTIFY CONTENT - CONTENT START -->
+    <div class="bg-light">
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">Flex Item</div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- JUSTIFY CONTENT - CONTENT CENTER -->
+    <div class="bg-light">
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">Flex Item</div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- JUSTIFY CONTENT - CONTENT END -->
+    <div class="bg-light">
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">Flex Item</div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- JUSTIFY CONTENT - CONTENT AROUND -->
+    <div class="bg-light">
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">Flex Item</div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- JUSTIFY CONTENT - CONTENT BETWEEN -->
+    <div class="bg-light">
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">Flex Item</div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- FLEX COLUMN -->
+    <div class="bg-light">
+      <div class="p-2 border border-dark">Flex item 1</div>
+      <div class="p-2 border border-dark">Flex item 2</div>
+      <div class="p-2 border border-dark">Flex item 3</div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- FLEX COLUMN REVERSE -->
+    <div class="bg-light">
+      <div class="p-2 border border-dark">Flex item 1</div>
+      <div class="p-2 border border-dark">Flex item 2</div>
+      <div class="p-2 border border-dark">Flex item 3</div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- VERTICAL ALIGN ITEMS - START -->
+    <div class="bg-light" style="height:150px">
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">
+        <button disabled="disabled">Submit</button>
+      </div>
+      <div class="p-4 border border-dark">Flex Item</div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- VERTICAL ALIGN ITEMS - CENTER -->
+    <div class="bg-light" style="height:150px">
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">Flex Item</div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- VERTICAL ALIGN ITEMS - END -->
+    <div class="bg-light" style="height:150px">
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">Flex Item</div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- VERTICAL ALIGN ITEMS - BASELINE -->
+    <div class="bg-light" style="height:150px">
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark"><button disabled="disabled">Submit</button></div>
+      <div class="p-4 border border-dark">Flex Item</div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- VERTICAL ALIGN ITEMS - STRETCH -->
+    <div class="bg-light" style="height:150px">
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">Flex Item</div>
+      <div class="p-4 border border-dark">Flex Item</div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- ALIGN SELF -->
+    <div class="bg-light" style="height:150px">
+      <div class="align-self-start p-4 border border-dark">Flex Item</div>
+      <div class="align-self-center p-4 border border-dark">Flex Item</div>
+      <div class="align-self-end p-4 border border-dark">Flex Item</div>
+      <div class="align-self-baseline p-4 border border-dark">Flex Item</div>
+      <div class="align-self-stretch p-4 border border-dark">Flex Item</div>
+    </div>
+
+    <div style="margin-top:500px;"></div>
+  </div>
+    <div style="margin-top:500px;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

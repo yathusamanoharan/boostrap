@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Bootstrap Sandbox</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="display-3 text-center my-4">Carousel Slider</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="dropdown">
+            <button class="btn btn-primary btn-block dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              2: Utilities
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="1_basic_typography.html">Basic Typography</a>
+              <a class="dropdown-item" href="2_text_alignment_display.html">Text Alignment & Display</a>
+              <a class="dropdown-item" href="3_floats_position.html">Floats & Position</a>
+              <a class="dropdown-item" href="4_colors_background.html">Colors & Background</a>
+              <a class="dropdown-item" href="5_spacing.html">Spacing</a>
+              <a class="dropdown-item" href="6_sizing.html">Sizing</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="dropdown">
+            <button class="btn btn-success btn-block dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              2: CSS Components
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="7_buttons.html">Buttons</a>
+              <a class="dropdown-item" href="8_navbar.html">Navbar</a>
+              <a class="dropdown-item" href="9_list_groups_badges.html">List Groups & Badges</a>
+              <a class="dropdown-item" href="10_forms.html">Forms</a>
+              <a class="dropdown-item" href="11_input_groups.html">Input Groups</a>
+              <a class="dropdown-item" href="12_alerts_progress.html">Alerts & Progress</a>
+              <a class="dropdown-item" href="13_tables_pagination.html">Tables & Pagination</a>
+              <a class="dropdown-item" href="14_cards.html">Cards</a>
+              <a class="dropdown-item" href="15_media_object.html">Media Objects</a>
+              <a class="dropdown-item" href="16_jumbotron.html">Jumbotron</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="dropdown">
+              <button class="btn btn-success btn-block dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                3: Layout
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="17_grid_system.html">Buttons</a>
+                <a class="dropdown-item" href="18_grid_alignment.html">Navbar</a>
+                <a class="dropdown-item" href="19_flexbox.html">List Groups & Badges</a>
+                <a class="dropdown-item" href="20_auto_margins_wrapping_order.html">Auto margin</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="dropdown">
+            <button class="btn btn-success btn-block dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              4: Main components
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="21_carousel.html">Carousel</a>
+              <a class="dropdown-item" href="22_collapse.html">Collapse</a>
+              <a class="dropdown-item" href="23_tooltips.html">tooltips</a>
+              <a class="dropdown-item" href="24_popovers.html">Popovers</a>
+              <a class="dropdown-item" href="25_modals.html">Modals</a>
+              <a class="dropdown-item" href="26_scrollspy.html">Scrollspy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </header>
+
+  <!--###################START HERE####################-->
+
+  <!-- The carousel is a slideshow for cycling through a series of content, -->
+  <!-- will avoid sliding when the webpage is not visible to the user  -->
+
+  <!-- The .active class needs to be added to one of the slides otherwise the carousel will not be visible. 
+    Also be sure to set a unique id on the .carousel for optional controls, 
+    especially if you’re using multiple carousels on a single page. -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 m-auto">
+
+        <!-- SIMPLE SLIDER -->
+        <h1> SIMPLE SLIDER</h1>
+        <div id="" class="mb-5" >
+          <div >
+            <div >
+              <img  src="https://source.unsplash.com/random/700x400" alt="First Slide">
+            </div>
+            <div >
+              <img  src="https://source.unsplash.com/random/701x400" alt="Second Slide">
+            </div>
+            <div >
+              <img  src="https://source.unsplash.com/random/702x400" alt="Third Slide">
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <!-- SLIDER WITH CONTROLS -->
+        <h1> SLIDER WITH CONTROLS</h1>
+        <div id="" >
+          <div >
+            <div >
+              <img  src="https://source.unsplash.com/random/700x400" alt="First Slide">
+            </div>
+            <div >
+              <img  src="https://source.unsplash.com/random/701x400" alt="Second Slide">
+            </div>
+            <div >
+              <img  src="https://source.unsplash.com/random/702x400" alt="Third Slide">
+            </div>
+            <!-- .img-fluid. This applies max-width: 100%; and height: auto; to the image so that it scales with the parent element. -->
+          </div>
+          <!-- CONTROLS -->
+          <button  type="button"  >
+            <span  aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button type="button"  >
+            <span aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <br>
+
+
+        <!-- SLIDER WITH INDICATORS -->
+          <h1> SLIDER WITH INDICATORS</h1>
+        <div id="" >
+          <div >
+            <button type="button"  class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button"  aria-label="Slide 2"></button>
+            <button type="button"  aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img  src="https://source.unsplash.com/random/699x400" alt="First Slide">
+            </div>
+            <div >
+              <img  src="https://source.unsplash.com/random/698x400" alt="Second Slide">
+            </div>
+            <div >
+              <img  src="https://source.unsplash.com/random/697x400" alt="Third Slide">
+            </div>
+          </div>
+          <!-- CONTROLS -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#slider3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#slider3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <br>
+
+        
+
+        <!-- SLIDER WITH CAPTIONS -->
+          <h1> SLIDER WITH CAPTIONS</h1>
+        <div id="slider4" class="carousel slide mb-5" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slider4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#slider4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#slider4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img  src="https://source.unsplash.com/wgq4eit198Q/700x400" alt="First Slide">
+              <div >
+                <h3>Slide One</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?</p>
+              </div>
+            </div>
+            <div >
+              <img  src="https://source.unsplash.com/WLUHO9A_xik/700x400" alt="Second Slide">
+              <div >
+                <h3>Slide Two</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?</p>
+              </div>
+            </div>
+            <div >
+              <img  src="https://source.unsplash.com/4yta6mU66dE/700x400" alt="Third Slide">
+              <div >
+                <h3>Slide Three</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?</p>
+              </div>
+            </div>
+          </div>
+          <!-- CONTROLS -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#slider4" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#slider4" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top:500px;"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script>
+    // $('.carousel').carousel({
+    //   interval: 3000,
+    //   keyboard: true,
+    //   pause: 'hover',
+    //   wrap: true
+    // });
+
+    // $('#slider4').on('slide.bs.carousel', function () {
+    //   console.log('SLIDE!');
+    // });
+
+    // $('#slider4').on('slid.bs.carousel', function () {
+    //   console.log('SLID!');
+    // });
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <title>Bootstrap Sandbox</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="display-3 text-center my-4">Tables & Pagination</h1>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="dropdown">
+                  <button class="btn btn-primary btn-block dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    2: Utilities
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="1_basic_typography.html">Basic Typography</a>
+                    <a class="dropdown-item" href="2_text_alignment_display.html">Text Alignment & Display</a>
+                    <a class="dropdown-item" href="3_floats_position.html">Floats & Position</a>
+                    <a class="dropdown-item" href="4_colors_background.html">Colors & Background</a>
+                    <a class="dropdown-item" href="5_spacing.html">Spacing</a>
+                    <a class="dropdown-item" href="6_sizing.html">Sizing</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="dropdown">
+                  <button class="btn btn-success btn-block dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    3: CSS Components
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="7_buttons.html">Buttons</a>
+                    <a class="dropdown-item" href="8_navbar.html">Navbar</a>
+                    <a class="dropdown-item" href="9_list_groups_badges.html">List Groups & Badges</a>
+                    <a class="dropdown-item" href="10_forms.html">Forms</a>
+                    <a class="dropdown-item" href="11_input_groups.html">Input Groups</a>
+                    <a class="dropdown-item" href="12_alerts_progress.html">Alerts & Progress</a>
+                    <a class="dropdown-item" href="13_tables_pagination.html">Tables & Pagination</a>
+                    <a class="dropdown-item" href="14_cards.html">Cards</a>
+                    <a class="dropdown-item" href="15_media_object.html">Media Objects</a>
+                    <a class="dropdown-item" href="16_jumbotron.html">Jumbotron</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="dropdown">
+                    <button class="btn btn-success btn-block dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                      3: CSS Components
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="17_grid_system.html">Buttons</a>
+                      <a class="dropdown-item" href="18_grid_alignment.html">Navbar</a>
+                      <a class="dropdown-item" href="19_flexbox.html">List Groups & Badges</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+              </div>
+            </div>
+          </div>
+        <hr>
+    </header>
+
+    <div class="container">
+        <!--###################START HERE#####################-->
+
+        <!-- TABLE -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- INVERSE/DARK TABLE -->
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- STRIPED TABLE -->
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- BORDERED TABLE -->
+        <table class="table table-borderd">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- BORDERLESS TABLE -->
+        <table class="table table-borderless">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- HOVERABLE -->
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- CONTEXTUAL CLASSES -->
+        <table class="table table-contextual">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- SMALL TABLE -->
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- RESPONSIVE TABLE - Scrollbars -->
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>jdoe@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Will</td>
+                        <td>Johnson</td>
+                        <td>will@yahoo.com</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Shannon</td>
+                        <td>Williams</td>
+                        <td>shannon@yahoo.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- PAGINATION -->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- PAGINATION CENTERED -->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- PAGINATION RIGHT -->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- PAGINATION LARGE -->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination pagination-lg">
+                <li class="page-item ">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item ">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- PAGINATION SMALL -->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination pagination-sm ">
+                <li class="page-item ">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item ">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- WITH ARROWS -->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item disabled" >
+                    <a class="page-link" href="#" aria-label="previous">
+                        
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#"  aria-label="next">
+                     
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+    <!-- ./container -->
+    <div style="margin-top:500px;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
